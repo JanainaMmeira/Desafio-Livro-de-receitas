@@ -1,0 +1,66 @@
+@charset 'UTF-8';
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; }
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); }
+
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --fontYoung: "Young Serif", serif;
+    --fontoutfit:"Outfit", sans-serif;
+
+    --colorbranco: hsl(0, 0%, 100%);
+    --colorstone100: hsl(30, 54%, 90%);
+    --colorstone150: hsl(30, 18%, 87%);
+    --colorstone600: hsl(30, 10%, 34%);
+    --colorstone900: hsl(24, 5%, 18%);
+
+}
+
+* {
+    margin: 40px;
+    background-color: var(--colorstone100);
+}
+
+body {
+    background-color: var(--colorbranco);
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+main {
+    background-color: var(--colorbranco);
+    text-align: justify;
+    font-family: var(--fontYoung);
+
+}
+
+header, section, p, h1 , h2, ul, li, strong, article {
+    background-color: var(--colorbranco);
+}
+
+img {
+    width: 500px;
+    height: 200px;
+    display: block;
+    margin: auto;
+    align-items: center;
+    border-radius: 10px;
+}
+
+h1 {
+    =
+    font-family: var(--fontoutfit);
+    text-align: center;
+    font-size: 40px;
+}
+
+.tprepar {
+    background-color: var(rgb(255, 205, 205));
+}
