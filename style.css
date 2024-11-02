@@ -1,21 +1,27 @@
-@charset 'UTF-8';
+@charset "UTF-8";
 
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-.attribution { 
-    font-size: 11px; 
-    text-align: center; }
-
-.attribution a { 
-    color: hsl(228, 45%, 44%); }
-
 @media screen and (max-width:
     1440px) {
-
         #main { min-width: 375px; }
     }
+
+    .young-serif-regular {
+        font-family: "Young Serif", serif;
+        font-weight: 400;
+        font-style: normal;
+      }
+
+    .outfit- < uniquifiet> {
+        font-family: "Outfit", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+      }
+      
 
 :root {
     --colorbranco: hsl(0, 0%, 100%);
@@ -28,96 +34,71 @@
 
     --colorrose800: hsl(332, 51%, 32%);
     --colorrose50: hsl(330, 100%, 98%);
-
 }
 
 * {
-    background-color: var(--colorstone100);
-    margin: 100px;
+    margin: 60px;
+    font-family: "Young Serif", serif;
 }
-
 body {
-    background-color: var(--colorbranco);
-    font-family: "Outfit", sans-serif;
-    border-radius: 15px;
+    background-color: var(--colorstone100);
 }
 
-header {
-    padding-top: 25px;
-    border-radius: 15px;
-
-}
-
-main {
-    background-color: var(--colorbranco);
-    text-align: justify;
-    font-family: "Young Serif", serif    
-}
-
-header, section, p, h1, article {
-    background-color: var(--colorbranco);
+main, header {
+    margin: auto;
+    background-color: #fff;
+    border: solid red;
 }
 
 img {
-    width: 103%;
-    display: block;
+    border-radius: 15px;
+    padding: 20px;
     margin: auto;
-    margin-top: 20px;
-    border: 20px;
-    border-radius: 10px;
+
 }
 
-.tpreparacao {
-    background-color: var(--colorrose50);
-    color: var(--colorstone900);
-    font-family: "Outfit", sans-serif;
-    margin: 10px;
-    padding: 5px;
+h2 {
+    color: var(--colorbrown800);
+    font-weight: 400;
 }
 
-#t1 {
-    color: var(--colorrose800);
-    display: block;
-    padding: 15px;
-
-    text-align: center;
+p {
+    color: var(--colorstone600);
+    font-weight: 16px;
 }
 
-ul, li {
-    display: block;
-    margin: auto;
-    padding: 5px;
-}
 
-#itens {
+article {
     text-align: left;
-    font-family: "Outfit", sans-serif;
-    color: var(--colorstone900);
+    border-top: 1px var(--colorstone150) solid; 
+}
+
+.listnutri  {
+    list-style-type: none;
+    color: var(--colorstone600);
+    font-family: "Young Serif", serif;
+    font-weight: 20px;
+    text-indent: 20px;
+    border-bottom: 1px var(--colorstone150) solid; 
+    margin-top: 0px; 
+    margin-bottom: 20px;
+
+    text-align: left;
+  
 }
 
 strong {
-    background-color: var(--colorrose50);
     color: var(--colorbrown800);
-    text-align: left;
-    
-}
-
-h1 {
-    =
     font-family: "Young Serif", serif;
-    font-weight: 900;
+    font-size: 20px;
+    padding-left: 250px;
+}
+
+
+footer {
+    font-style: none;
     text-align: center;
-
+    color: var(--colorstone900);
 }
 
-section > p {
-    font-family:"Young Serif", serif;
-    color: var();
-}
-
-ul > li {
-    color: var(--colorstone600);
-    background-color: #fff;
-    display: block;
-
-}
+  
