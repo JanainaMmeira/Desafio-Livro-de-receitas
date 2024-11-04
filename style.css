@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
-@media only screen and (max-device-width: 900px)
+@media only screen and (max-device-width: 1400px)
 { menu { width:100%; }
     }
   
@@ -35,16 +35,16 @@
 }
 
 /* Zera configuração da tela */
+/*
+
+}
+*/
 
 * {
     margin: 0px;
     padding: 0px;
 }
 
-html, body {
-    height: 100vh;
-    width: 100vh;
-}
 
 /* Corpo */
 body {
@@ -64,6 +64,8 @@ main {
     font-weight: 16px;
     color: var(--colorstone900);
     text-align: center;
+
+
 }
 
 
@@ -73,6 +75,8 @@ main, header {
     background-color: #fff;
     font-weight: 16px;
 
+    min-width: 375px;
+    max-width: 1400px;
 }
 
 hr {
@@ -101,7 +105,13 @@ header h1 {
 
 header img {
     border-radius: 15px;
-    min-width: 300px;
+    max-width: 900px;
+    max-height: 300px;
+
+    min-width: 650px;
+    min-height: 300x;
+    
+
 }
 
 h2 {
@@ -224,7 +234,7 @@ ol  li {
 
 article > ul strong {
     color: var(--colorbrown800);
-    padding-left: 350px;
+    padding-left: 200px;
  }
 
 /* Rodapé */
