@@ -2,24 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
-
-@media only screen and (max-device-width: 1400px)
-{ menu { width:100%; }
-    }
-  
-    .young-serif-regular {
-        font-family: "Young Serif", serif;
-        font-weight: 400;
-        font-style: normal;
-      }
-
-    .outfit- < uniquifiet> {
-        font-family: "Outfit", serif;
-        font-optical-sizing: auto;
-        font-style: normal;
-      }
-      
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');      
 
 :root {
     --colorbranco: hsl(0, 0%, 100%);
@@ -45,14 +28,17 @@
     padding: 0px;
 }
 
+ html {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
 
 /* Corpo */
 body {
     margin: auto;
     background-color: var(--colorstone100);
     padding: 30px;
-
-    overflow-x: hidden;
 }
 
 main {
@@ -74,10 +60,14 @@ main, header {
     padding: 15px;
     background-color: #fff;
     font-weight: 16px;
+    }
 
-    min-width: 375px;
-    max-width: 1400px;
-}
+header {
+    padding-top: 20px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    }
 
 hr {
     color: var(--colorstone100);
@@ -86,32 +76,18 @@ hr {
 
 /* cabeçalho */
 
-header {
-    text-align: center;
-    font-family:"Young Serif", serif;
-    font-size: 35px;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
-}
-
-header h1 {
-    margin: auto;
-    padding-top: 35px;
-    padding-bottom: 7px;
-
-    color: var(--colorstone900);
+main h1 {
     font-family: "Young Serif", serif;;
+    text-align: center;
+    color: var(--colorstone900);
+    margin: 20px;
+   
 }
 
-header img {
-    border-radius: 15px;
-    max-width: 900px;
-    max-height: 300px;
-
-    min-width: 650px;
-    min-height: 300x;
-    
-
+picture img {
+    margin: auto;
+    border-radius: 20px;
+    width: 100vw;
 }
 
 h2 {
