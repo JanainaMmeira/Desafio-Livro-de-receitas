@@ -28,12 +28,6 @@
     padding: 0px;
 }
 
- html {
-    width: 100vw;
-    overflow-x: hidden;
-}
-
-
 /* Corpo */
 body {
     margin: auto;
@@ -57,13 +51,14 @@ main {
 
 main, header {
     margin: auto;
-    padding: 15px;
+    padding:30px;
     background-color: #fff;
     font-weight: 16px;
     }
 
 header {
-    padding-top: 20px;
+
+    padding-top: 30px;
     text-align: center;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -84,10 +79,10 @@ main h1 {
    
 }
 
-picture img {
+img {
     margin: auto;
     border-radius: 20px;
-    width: 100vw;
+    width: 100%;
 }
 
 h2 {
@@ -218,9 +213,21 @@ article > ul strong {
 footer {
     font-style: none;
     text-align: center;
-    color: var(--colorstone900);
-    background-color: var(--colorrose50);
+    color: white;
+    background-color: var(--colorstone600);
     border-radius: 5px;
+    font-family: "Young Serif", serif;
+    font-size: 10px;
 }
 
+footer a {
+    text-decoration: none;
+    color: white;
+
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: var(--colorbrown800);
+}
   
